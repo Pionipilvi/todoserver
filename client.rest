@@ -1,0 +1,13 @@
+GET http://127.0.0.1:3001
+
+### miau
+POST http://127.0.0.1:3001/new HTTP/1.1
+Content-Type: application/json
+
+### Delete miau
+DELETE http://127.0.0.1:3001/delete/1 HTTP/1.1
+
+{
+    "description": "Test from REST Client"
+}
+
